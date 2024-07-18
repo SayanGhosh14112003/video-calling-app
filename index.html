@@ -18,8 +18,9 @@
             var user_id = window.prompt('Enter your userid');
 
             if(!user_id || !meeting_id){
-                alert('User id or meeting id missing');
-                window.location.href = '/action.html';
+                //alert('User id or meeting id missing');
+                //window.location.href = '/action.html';
+                window.close();
                 return;
             }
             $("#meetingContainer").show();
